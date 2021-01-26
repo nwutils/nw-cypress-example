@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NW.js + Cypress</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <script>
+      const fs = require('fs');
+      const data = fs.readFileSync('./package.json');
+      document.write(String(data));
+    </script>
+  </body>
+</html>
