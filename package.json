@@ -8,7 +8,7 @@
   "scripts": {
     "start": "nw .",
     "serve": "node server.js",
-    "test": "concurrently \"npm run serve\" \"cypress open --browser node_modules/nw/nwjs/nw.exe:chrome\""
+    "test": "concurrently \"npm run serve\" \"cypress open\""
   },
   "dependencies": {
     "express": "^4.17.1"
